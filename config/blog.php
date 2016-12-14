@@ -79,6 +79,16 @@ return [
         ],
         [
             'tree_title' => [
+                'icon' => 'fa fa-car',
+                'name' => '车位信息'
+            ],
+            'backend.system.index' => [
+                'icon' => '',
+                'name' => '车位查询'
+            ]
+        ],
+        [
+            'tree_title' => [
                 'icon' => 'fa fa-cog',
                 'name' => '设置'
             ],
@@ -95,5 +105,23 @@ return [
                 'name' => '自定义页面'
             ]
         ]
+    ],
+    'menu_normal' => [
+        [
+            'backend.home' => [
+                'icon'  => 'fa fa-home',
+                'name'  => 'Home'
+            ]
+        ],
+        [
+            'tree_title' => [
+                'icon' => 'fa fa-car',
+                'name' => '车位信息'
+            ],
+            'backend.car.index' => [
+                'icon' => '',
+                'name' => '车位查询'
+            ]
+        ],
     ]
 ];

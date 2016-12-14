@@ -123,7 +123,7 @@
         <div class="pull-right hidden-xs">
 
         </div>
-        <strong>Powered by <a href="http://moell.cn" target="_blank">社区物业管理系统</a></strong>
+        <strong>Powered by <a href="#" target="_blank">社区物业管理系统</a></strong>
     </footer>
 </div>
 <!-- ./wrapper -->

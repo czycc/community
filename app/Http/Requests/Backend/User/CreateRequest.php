@@ -24,7 +24,7 @@ class CreateRequest extends Request
     public function rules()
     {
         return [
-            'name' => "required|min:2",
+            'name' => "required|min:2|unique:users",
             'email' => "required|email|unique:users",
             'password' => 'required|between:8,30',
             'permission' => 'required',
@@ -39,6 +39,7 @@ class CreateRequest extends Request
         return [
             'name.required' => '姓名必须填写',
             'name.min'      => '姓名最小不能小于两字符',
+            'name.unique' => '姓名已经被占用',
             'email.required'=> '登录邮箱必须填写',
             'email.unique'=> '登录邮箱必须唯一',
             'email.email'=> '请填写合法的邮箱',
